@@ -200,18 +200,18 @@ A business management platform engineered for **both desktop and web** from the 
 ### 🎫 VTicket — Online Event Ticketing Platform
 [![Source](https://img.shields.io/badge/Source-Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vngson/vticket-web)
 
-A Vietnamese event ticketing marketplace with **interactive seat selection**, real-time booking, and **VNPay payment gateway** integration. Built the complete frontend with a focus on responsive design and role-based user experience. Three-tier architecture — customers book tickets, businesses manage events & revenue, admins oversee the platform.
+A Vietnamese event ticketing marketplace with **interactive seat selection**, **VNPay payment**, and role-based dashboards. Built the complete frontend with a focus on responsive design and user experience.
 
 | | Highlights |
 |---|---|
-| Seat Selection | Interactive seat map with availability tracking and ticket type filtering |
-| Payment | Full **VNPay** integration with success/failure result handling |
-| Dashboard | Revenue statistics with **Chart.js** line charts, filterable by date & event |
-| Auth | JWT with access/refresh token flow and automatic token refresh via Axios interceptor |
-| Roles | Role-based UI: customer, business, admin — each with dedicated dashboards |
-| Features | Discount/promo codes, star-based feedback & replies, support ticket system, event search & topic categorization |
+| Frontend | **React 18** + MUI v5 + Bootstrap 5 + Chart.js |
+| Seat Map | Interactive seat selection with availability tracking and ticket type filtering |
+| Payment | Full **VNPay** gateway integration with transaction result handling |
+| Dashboard | Revenue statistics with line charts, filterable by date range & event |
+| Auth | JWT access/refresh token flow with automatic refresh via Axios interceptor |
+| Features | Discount codes, star-based feedback, support tickets, event search & categorization |
 
-`React 18` `JavaScript` `MUI v5` `Bootstrap 5` `Chart.js` `React Router v6` `Axios` `Swiper` `VNPay`
+`React 18` `MUI v5` `Chart.js` `React Router v6` `Axios` `VNPay`
 
 </td>
 </tr>
