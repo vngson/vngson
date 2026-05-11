@@ -192,27 +192,51 @@ A business management platform engineered for **both desktop and web** from the 
 </tr>
 </table>
 
-<!-- Selina & OMRP -->
+<!-- VTicket -->
 <table>
 <tr>
-<td width="50%">
+<td width="100%">
 
-### 📚 Selina — Book E-Commerce Platform
-[![Source](https://img.shields.io/badge/Source-Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vngson/Selina)
+### 🎫 VTicket — Online Event Ticketing Platform
+[![Source](https://img.shields.io/badge/Source-Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vngson/vticket-web)
 
-Full-stack e-commerce with **microservices backend** — Auth, Bookshelves, Profile services with well-defined API contracts.
+A Vietnamese event ticketing marketplace with **interactive seat selection**, real-time booking, and **VNPay payment gateway** integration. Built the complete frontend with a focus on responsive design and role-based user experience. Three-tier architecture — customers book tickets, businesses manage events & revenue, admins oversee the platform.
 
-`JavaScript` `Node.js` `MongoDB` `Redis` `Firebase` `Netlify`
+| | Highlights |
+|---|---|
+| Seat Selection | Interactive seat map with availability tracking and ticket type filtering |
+| Payment | Full **VNPay** integration with success/failure result handling |
+| Dashboard | Revenue statistics with **Chart.js** line charts, filterable by date & event |
+| Auth | JWT with access/refresh token flow and automatic token refresh via Axios interceptor |
+| Roles | Role-based UI: customer, business, admin — each with dedicated dashboards |
+| Features | Discount/promo codes, star-based feedback & replies, support ticket system, event search & topic categorization |
+
+`React 18` `JavaScript` `MUI v5` `Bootstrap 5` `Chart.js` `React Router v6` `Axios` `Swiper` `VNPay`
 
 </td>
-<td width="50%">
+</tr>
+</table>
 
-### 🎵 OMRP — Online Music Resource Player
+<!-- OMRP -->
+<table>
+<tr>
+<td width="100%">
+
+### 🎁 OMRP — One Million Reward Points
 [![Source](https://img.shields.io/badge/Source-Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vngson/OMRP)
 
-Music streaming & resource management — my **longest-maintained project** (~3 years). Rich media player, playlist management, robust content delivery.
+A reward platform that lets users redeem points for gifts across partner stores, boosting engagement and loyalty. My **longest-maintained project** (~3 years) — responsible for **frontend development and UI/UX design**.
 
-`TypeScript` `Node.js` `Web Audio API` `Media Streaming`
+| | Highlights |
+|---|---|
+| Frontend | **Next.js 13** App Router + Redux Toolkit + React Query + MUI 5 |
+| Performance | Optimized frontend achieving **30% faster load times** |
+| UX Design | Designed user-centric redemption flows to enhance engagement |
+| Architecture | Collaborated on system structure to ensure scalability and maintainability |
+| State | Redux Toolkit with persist for cross-session state management |
+| Roles | Role-based UI: Admin, Partner, Employee, Customer |
+
+`Next.js` `TypeScript` `Redux Toolkit` `React Query` `MUI 5` `Express.js` `PostgreSQL`
 
 </td>
 </tr>
@@ -229,6 +253,7 @@ Music streaming & resource management — my **longest-maintained project** (~3 
 | [**soccer-fields-service**](https://github.com/vngson/soccer-fields-service) | Backend for sports facility booking | `Node.js` `REST API` |
 | [**BI_2023**](https://github.com/vngson/BI_2023) | Business Intelligence with data warehousing | `TSQL` `ETL` |
 | [**vngson.github.io**](https://github.com/vngson/vngson.github.io) | Cyberpunk portfolio with particle systems & WebGL | `HTML` `CSS` `Canvas` |
+| [**Selina**](https://github.com/vngson/Selina) | Book e-commerce with microservices backend | `JavaScript` `MongoDB` `Redis` |
 | [**TaskManagement**](https://github.com/vngson/TaskManagement) | Task management application | `PHP` |
 | [**Email-Client**](https://github.com/vngson/Email-Client) | Desktop email client | `Python` |
 
