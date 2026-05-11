@@ -225,7 +225,7 @@ A Vietnamese event ticketing marketplace with **interactive seat selection**, **
 ### 🎁 OMRP — One Million Reward Points
 [![Source](https://img.shields.io/badge/Source-Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vngson/OMRP)
 
-A reward platform that lets users redeem points for gifts across partner stores, boosting engagement and loyalty. My **longest-maintained project** (~3 years) — responsible for **frontend development and UI/UX design**.
+A reward platform that lets users redeem points for gifts across partner stores, boosting engagement and loyalty. My **first e-commerce project** — focused on **frontend development** and **UI/UX design**.
 
 | | Highlights |
 |---|---|
