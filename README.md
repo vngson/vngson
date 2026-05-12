@@ -156,13 +156,51 @@ I believe in **engineering over assembling** — understanding systems at a fund
 
 A **full-stack** business management platform for **BlockHouse barber shop** — engineered across desktop, web, and backend, with the web edition built as a **micro-frontend monorepo** using Webpack 5 Module Federation.
 
-| | Desktop | Web | Backend |
-|---|---|---|---|
-| Stack | **WPF** on **.NET 8.0** + CommunityToolkit.Mvvm | **React 18** + TypeScript + Webpack 5 Module Federation | **Python 3** + **Flask** + Flask-SQLAlchemy |
-| Architecture | MVVM with ViewModels, Views, Services layers | 6-package monorepo — host shell lazy-loads 4 remote micro-apps | Layered — Controllers → Services → Models with Marshmallow schemas |
-| State | Observable properties + RelayCommand binding | **Zustand** stores per domain (dashboard, employees, revenue, services) | **SQLite** via SQLAlchemy ORM |
-| UI | **Material Design in XAML** | **MUI v5** + **Recharts** for dashboard visualization | REST API `/api/v1` — standardized JSON response |
-| Charts | **LiveCharts.Wpf** for revenue & metrics | **Recharts** for revenue charts & employee rankings | Aggregation endpoints for revenue by date/employee/month |
+<table>
+<tr>
+<th width="33%" align="center">🖥️ Desktop</th>
+<th width="33%" align="center">🌐 Web</th>
+<th width="33%" align="center">⚙️ Backend</th>
+</tr>
+<tr>
+<td valign="top">
+
+**.NET 8 + WPF**
+
+| Layer | Tech |
+|---|---|
+| MVVM | CommunityToolkit.Mvvm |
+| UI | Material Design in XAML |
+| Charts | LiveCharts.Wpf |
+| Binding | Observable + RelayCommand |
+
+</td>
+<td valign="top">
+
+**React 18 + TypeScript**
+
+| Layer | Tech |
+|---|---|
+| Build | Webpack 5 + Module Federation |
+| State | Zustand (per-domain) |
+| UI | MUI v5 + Recharts |
+| Forms | React Hook Form + Zod |
+
+</td>
+<td valign="top">
+
+**Python 3 + Flask**
+
+| Layer | Tech |
+|---|---|
+| ORM | Flask-SQLAlchemy (SQLite) |
+| Validation | Marshmallow schemas |
+| API | REST `/api/v1` standardized |
+| Arch | Controller → Service → Model |
+
+</td>
+</tr>
+</table>
 
 `React 18` `TypeScript` `Webpack 5` `Module Federation` `MUI v5` `Zustand` `Recharts` `Python` `Flask` `SQLAlchemy` `Marshmallow` `SQLite` `C#` `.NET 8` `WPF` `CommunityToolkit.Mvvm` `Material Design` `LiveCharts`
 
