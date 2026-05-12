@@ -40,7 +40,7 @@ I believe in **engineering over assembling** — understanding systems at a fund
 
 ```text
 📍 Gia Lai, Vietnam
-🎓 FIT.HCMUS (VNUHCM)
+🎓 FIT.HCMUS (University of Science - VNUHCM)
 💻 Full-Stack · Web3 · Desktop · Mobile
 🔗 vngson.github.io
 ```
@@ -142,6 +142,34 @@ I believe in **engineering over assembling** — understanding systems at a fund
 
 ## 🚀 Featured Projects
 
+
+<!-- BlockHouse -->
+<table>
+<tr>
+<td width="100%">
+
+### 🏠 BlockHouse — Barber Shop Management Platform
+
+[![Desktop](https://img.shields.io/badge/Desktop-WPF-512BD4?style=flat-square&logo=microsoft&logoColor=white)](https://github.com/vngson/BlockHouse_FE)
+[![Web](https://img.shields.io/badge/Web-App-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://github.com/vngson/blockhouse-web)
+[![Backend](https://img.shields.io/badge/Backend-Flask-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/vngson/BlockHouse_BE)
+
+A **full-stack** business management platform for **BlockHouse barber shop** — engineered across desktop, web, and backend, with the web edition built as a **micro-frontend monorepo** using Webpack 5 Module Federation.
+
+| | Desktop | Web | Backend |
+|---|---|---|---|
+| Stack | **WPF** on **.NET 8.0** + CommunityToolkit.Mvvm | **React 18** + TypeScript + Webpack 5 Module Federation | **Python 3** + **Flask** + Flask-SQLAlchemy |
+| Architecture | MVVM with ViewModels, Views, Services layers | 6-package monorepo — host shell lazy-loads 4 remote micro-apps | Layered — Controllers → Services → Models with Marshmallow schemas |
+| State | Observable properties + RelayCommand binding | **Zustand** stores per domain (dashboard, employees, revenue, services) | **SQLite** via SQLAlchemy ORM |
+| UI | **Material Design in XAML** | **MUI v5** + **Recharts** for dashboard visualization | REST API `/api/v1` — standardized JSON response |
+| Charts | **LiveCharts.Wpf** for revenue & metrics | **Recharts** for revenue charts & employee rankings | Aggregation endpoints for revenue by date/employee/month |
+
+`React 18` `TypeScript` `Webpack 5` `Module Federation` `MUI v5` `Zustand` `Recharts` `Python` `Flask` `SQLAlchemy` `Marshmallow` `SQLite` `C#` `.NET 8` `WPF` `CommunityToolkit.Mvvm` `Material Design` `LiveCharts`
+
+</td>
+</tr>
+</table>
+
 <!-- Doculock -->
 <table>
 <tr>
@@ -168,29 +196,6 @@ A full-stack Web3 dApp for verifying document authenticity on the **SUI blockcha
 </tr>
 </table>
 
-<!-- BlockHouse -->
-<table>
-<tr>
-<td width="100%">
-
-### 🏠 BlockHouse — Cross-Platform Business Application
-
-[![Desktop](https://img.shields.io/badge/Desktop-WPF-512BD4?style=flat-square&logo=microsoft&logoColor=white)](https://github.com/vngson/BlockHouse_FE)
-[![Web](https://img.shields.io/badge/Web-App-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://github.com/vngson/blockhouse-web)
-
-A business management platform engineered for **both desktop and web** from the ground up — sharing domain logic while leveraging platform-specific UI paradigms.
-
-| Desktop | Web |
-|---|---|
-| **WPF/.NET** with MVVM architecture | **TypeScript** with modern component architecture |
-| Rich data binding & native UX | Responsive web accessibility |
-| Complex state with real-time sync | Unified business logic layer |
-
-`C#` `.NET` `WPF` `TypeScript` `MVVM` `SQL Server`
-
-</td>
-</tr>
-</table>
 
 <!-- VTicket -->
 <table>
