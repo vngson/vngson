@@ -31,7 +31,7 @@
 <tr>
 <td width="55%">
 
-I'm a software engineer at **FIT.HCMUS** (VNUHCM - University of Science) building production-grade systems across multiple platforms — from full-stack web apps to .NET desktop software, Flutter mobile apps, and Web3 dApps on the SUI blockchain.
+I'm a software engineer at **FIT.HCMUS** (University of Science - VNUHCM) building production-grade systems across multiple platforms — from full-stack web apps to desktop software, Flutter mobile apps, and Web3 dApps on the SUI blockchain.
 
 I believe in **engineering over assembling** — understanding systems at a fundamental level, from smart contract logic to database indexing to client-side cryptography. Every project I build is designed to solve real problems with architecture that scales.
 
